@@ -66,82 +66,72 @@ int main(){
 <p align="center"><img src="quick_sort_complexity.png" width="450" height="220"></p>
 
 ### Q&A
-Q1. Which of the following can improve Quick Sort’s performance in the worst case?
-	a. Randomized pivot selection
-	b. Always choosing the first element as the pivot
-	c. Sorting a sorted array
-	d. Using a stack-based approach
-	Answer:
-	a. **Randomized pivot selection**
+Q1. Which of the following can improve Quick Sort’s performance in the worst case?<br>
+a. Randomized pivot selection<br>
+b. Always choosing the first element as the pivot<br>
+c. Sorting a sorted array<br>
+d. Using a stack-based approach<br>
+Answer: a. **Randomized pivot selection**
 
-Q2. What is the primary advantage of Quick Sort over Merge Sort?
-	a. Stability
-	b. Worst-case performance
-	c. Space efficiency
-	d. Simplicity of implementation
-	Answer:
-	c. **Space efficiency**
+Q2. What is the primary advantage of Quick Sort over Merge Sort?<br>
+a. Stability<br>
+b. Worst-case performance<br>
+c. Space efficiency<br>
+d. Simplicity of implementation<br>
+Answer: c. **Space efficiency**
 
-Q3. In Quick Sort, if the pivot divides the array into two equal halves at every step, the depth of recursion will be:
-	a. O(n)
-	b. O(log n)
-	c. O(n²)
-	d. O(1)
-	Answer:
-	b. **O(log n)**
+Q3. In Quick Sort, if the pivot divides the array into two equal halves at every step, the depth of recursion will be:<br>
+a. O(n)<br>
+b. O(log n)<br>
+c. O(n²)<br>
+d. O(1)<br>
+Answer: b. **O(log n)**
 
-Q4. Which of the following modifications is NOT used to optimize Quick Sort?
-	a. Median-of-three pivot selection
-	b. Switching to Insertion Sort for small subarrays
-	c. Randomized pivot selection
-	d. Using an auxiliary array for partitioning
-	Answer:
-	d. **Using an auxiliary array for partitioning**
+Q4. Which of the following modifications is NOT used to optimize Quick Sort?<br>
+a. Median-of-three pivot selection<br>
+b. Switching to Insertion Sort for small subarrays<br>
+c. Randomized pivot selection<br>
+d. Using an auxiliary array for partitioning<br>
+Answer: d. **Using an auxiliary array for partitioning**
 
-Q5. Quick Sort is typically implemented:
-	a. Iteratively using a stack
-	b. Recursively
-	c. Both iteratively and recursively
-	d. Using only a loop
-	Answer:
-	c. **Both iteratively and recursively**
+Q5. Quick Sort is typically implemented:<br>
+a. Iteratively using a stack<br>
+b. Recursively<br>
+c. Both iteratively and recursively<br>
+d. Using only a loop<br>
+Answer: c. **Both iteratively and recursively**
 
-Q6. If Quick Sort is implemented using a loop instead of recursion, what is used to simulate the recursive calls?
-	a. Queue
-	b. Array
-	c. Stack
-	d. Linked List
-	Answer:
-	c. **Stack**
+Q6. If Quick Sort is implemented using a loop instead of recursion, what is used to simulate the recursive calls?<br>
+a. Queue<br>
+b. Array<br>
+c. Stack<br>
+d. Linked List<br>
+Answer: c. **Stack**
 
 Q7. Why is Quick Sort generally faster than other sorting algorithms in practical scenarios?
-	a. It always uses O(1) space
-	b. It avoids recursion
-	c. It has better cache performance due to in-place sorting
-	d. It does not use pivot selection
-	Answer:
-	c. **It has better cache performance due to in-place sorting**
+a. It always uses O(1) space<br>
+b. It avoids recursion<br>
+c. It has better cache performance due to in-place sorting<br>
+d. It does not use pivot selection<br>
+Answer: c. **It has better cache performance due to in-place sorting**
 
-Q8. What happens in Quick Sort when all elements in the array are identical?
-	a. Best-case time complexity is achieved
-	b. Average-case time complexity is achieved
-	c. Worst-case time complexity is achieved
-	d. Time complexity is O(1)
-	Answer:
-	c. **Worst-case time complexity is achieved**
+Q8. What happens in Quick Sort when all elements in the array are identical?<br>
+a. Best-case time complexity is achieved<br>
+b. Average-case time complexity is achieved<br>
+c. Worst-case time complexity is achieved<br>
+d. Time complexity is O(1)<br>
+Answer: c. **Worst-case time complexity is achieved**
 
-Q9. Quick Sort’s performance can be improved by:
-	a. Choosing the largest element as the pivot
-	b. Sorting an already sorted array
-	c. Choosing the median-of-three as the pivot
-	d. Reducing the number of comparisons
-	Answer:
-	c. **Choosing the median-of-three as the pivot**
+Q9. Quick Sort’s performance can be improved by:<br>
+a. Choosing the largest element as the pivot<br>
+b. Sorting an already sorted array<br>
+c. Choosing the median-of-three as the pivot<br>
+d. Reducing the number of comparisons<br>
+Answer: c. **Choosing the median-of-three as the pivot**
 
-Q10. Which of the following is true about the partitioning step in Quick Sort?
-	a. The pivot is always placed at the first position of the array.
-	b. The pivot element is placed in its final sorted position.
-	c. The pivot is not included in the partitioned subarrays.
-	d. The partitioning step merges two sorted arrays.
-	Answer:
-	b. **The pivot element is placed in its final sorted position.**
+Q10. Which of the following is true about the partitioning step in Quick Sort?<br>
+a. The pivot is always placed at the first position of the array.<br>
+b. The pivot element is placed in its final sorted position.<br>
+c. The pivot is not included in the partitioned subarrays.<br>
+d. The partitioning step merges two sorted arrays.<br>
+Answer: b. **The pivot element is placed in its final sorted position.**

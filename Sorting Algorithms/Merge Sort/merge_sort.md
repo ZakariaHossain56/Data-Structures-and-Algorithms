@@ -89,30 +89,30 @@ c. O(n^2)<br>
 d. O(1)<br>
 Answer: a. **O(n)**
 
-Q2. Merge Sort is better suited for:
-a. Small datasets
-b. Sorting linked lists
-c. Sorting data with a lot of duplicate values
-d. Both b and c
+Q2. Merge Sort is better suited for:<br>
+a. Small datasets<br>
+b. Sorting linked lists<br>
+c. Sorting data with a lot of duplicate values<br>
+d. Both b and c<br>
 Answer: d. **Both b and c**
 
-Q3. What is the base case for Merge Sort?
-a. When the array has a single element or is empty.
-b. When the pivot is found.
-c. When the array is already sorted.
-d. None of the above.
+Q3. What is the base case for Merge Sort?<br>
+a. When the array has a single element or is empty.<br>
+b. When the pivot is found.<br>
+c. When the array is already sorted.<br>
+d. None of the above.<br>
 Answer: a. **When the array has a single element or is empty.**
 
-Q4. Merge Sort performs better than Quick Sort when:
-a. The dataset is very large and fits in memory.
-b. The dataset is very small.
-c. The dataset is stored as a linked list.
-d. The dataset contains unique elements.
+Q4. Merge Sort performs better than Quick Sort when:<br>
+a. The dataset is very large and fits in memory.<br>
+b. The dataset is very small.<br>
+c. The dataset is stored as a linked list.<br>
+d. The dataset contains unique elements.<br>
 Answer: c. **The dataset is stored as a linked list.**
 
-Q5. What is the key operation performed in the merge step of Merge Sort?
-a. Splitting the array into halves.
-b. Combining two sorted subarrays into one.
-c. Finding the pivot.
-d. Rearranging the elements in place.
+Q5. What is the key operation performed in the merge step of Merge Sort?<br>
+a. Splitting the array into halves.<br>
+b. Combining two sorted subarrays into one.<br>
+c. Finding the pivot.<br>
+d. Rearranging the elements in place.<br>
 Answer: b. **Combining two sorted subarrays into one.**
