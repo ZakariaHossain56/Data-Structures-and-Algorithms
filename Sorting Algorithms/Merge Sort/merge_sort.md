@@ -82,11 +82,11 @@ int main(){
 ### Space Complexity
 - **Auxiliary Space:** `O(n)`, Additional space is required for the temporary array used during merging.
 ### Q&A
-Q1. In Merge Sort, the merging of two sorted subarrays takes:
-a. O(n)
-b. O(logn)
-c. O(n^2)
-d. O(1)
+Q1. In Merge Sort, the merging of two sorted subarrays takes:<br>
+a. O(n)<br>
+b. O(logn)<br>
+c. O(n^2)<br>
+d. O(1)<br>
 Answer: a. **O(n)**
 
 Q2. Merge Sort is better suited for:
